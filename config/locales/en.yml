@@ -3,7 +3,7 @@
 
 en:
   spree:
-    shipping_method_codes: Shipping Method Code(s) (comma separated)
+    shipping_method_codes: Shipping Internal Names (comma separated)
     promotion_action_types:
       make_shipping_method_free:
         name: Make shipping method(s) free

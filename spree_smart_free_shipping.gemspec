@@ -11,8 +11,8 @@ Gem::Specification.new do |s|
   s.email     = 'bryan@godynamo.com'
   s.homepage  = 'http://www.godynamo.com'
 
-  #s.files       = `git ls-files`.split("\n")
-  #s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
+  # s.files       = `git ls-files`.split("\n")
+  # s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_path = 'lib'
   s.requirements << 'none'
 
@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'database_cleaner'
   s.add_development_dependency 'factory_girl', '~> 4.5'
   s.add_development_dependency 'ffaker'
-  s.add_development_dependency 'rspec-rails',  '~> 3.1'
+  s.add_development_dependency 'rspec-rails', '~> 3.1'
   s.add_development_dependency 'sass-rails'
   s.add_development_dependency 'selenium-webdriver'
   s.add_development_dependency 'simplecov'
